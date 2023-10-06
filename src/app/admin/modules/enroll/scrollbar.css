@@ -1,0 +1,17 @@
+#description::-webkit-scrollbar {
+   width: 10px; /* Largura da scrollbar */
+ }
+ 
+ #description::-webkit-scrollbar-thumb {
+   background-color: #555; /* Cor do polegar da scrollbar */
+   border-radius: 6px; /* Raio do polegar da scrollbar */
+ }
+ 
+ #description::-webkit-scrollbar-thumb:hover {
+   background-color: #888; /* Cor do polegar da scrollbar ao passar o mouse */
+   cursor: pointer;
+ }
+ 
+ #description::-webkit-scrollbar-track {
+   background-color: transparent; /* Cor da área da scrollbar */
+ }
